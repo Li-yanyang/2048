@@ -7,7 +7,7 @@ var starty = 0;
 var endx = 0;
 var endy = 0;
 
-$(document).ready(function() {
+$(function() {
     prepareForMobile();
     $("body").bind("touchmove", function(e) {
         e.preventDefault();
